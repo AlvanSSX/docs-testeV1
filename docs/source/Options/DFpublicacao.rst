@@ -9,6 +9,7 @@ Terminado o desenvolvimento, as alterações devem ser publicadas, seguindo algu
 Para publicar as alterações feitas é necessário criar um Pull Request. Antes de qualquer coisa, é recomendado validar a branch pelo próprio Data Factory, usando a opção **Validate all**, que retornará se a branch está ok, ou se possui qualquer inconsistência, indicando, nesse caso, onde estão os erros. 
 
    .. image:: /imagesdf/Imagem19.jpg
+     :align: center
 
    **Figura 19:** Exemplo de onde acionar a opção “Validate all” 
 
@@ -59,12 +60,14 @@ Algum membro do grupo de aprovação poderá questionar algum ponto ou solicitar
 Ao completar o merge entre as branchs, é orientado que a branch de origem seja excluída. 
 
    .. image:: /imagesdf/Imagem22.jpg
+     :align: center
 
    **Figura 22:** Exemplo de onde marcar a opção de deletar a branch após finalização do Pull request 
 
 Completada a etapa realizada no Azure DevOps, deve-se retornar ao Data Factory para publicar o que foi feito. Recomenda-se novamente realizar a validação da branchs, pelo **Validate all**, e então publicar, pela opção **Publish** (exibida na Figura 19). As alterações serão listadas e o desenvolvedor deverá dar o Ok para a publicação iniciar. 
 
    .. image:: /imagesdf/Imagem23.jpg
+     :align: center
 
    **Figura 23:** Exemplo de tela de publicação de alterações no ADF 
 

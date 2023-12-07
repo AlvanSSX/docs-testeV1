@@ -58,10 +58,12 @@ Para cada novo desenvolvimento, é necessário criar uma branch onde serão comm
 3 Abrir a branch criada, ir até opção **Clone** e copiar a URL;
 
 .. image:: /imagesaf/Imagem2.jpg
+     :align: center
 
 **Figura 2:** Obtendo URL para clonar repositório, passo 1 
 
 .. image:: /imagesaf/Imagem3.jpg
+     :align: center
 
 **Figura 3:** Obtendo URL para clonar repositório, passo 2 
 
@@ -122,6 +124,7 @@ Com o Azure Tools instalado, abriremos a pasta local onde o repositório foi clo
 O projeto será aberto, e na barra inferior, no canto esquerdo, veremos a branch master sendo exibida (Figura 6), e ao clicar nela, aparecerá um menu suspenso onde a branch desejada deverá ser selecionada (Figura 7). 
 
 .. image:: /imagesaf/Imagem12.jpg
+     :align: center
 
 **Figura 12:** Branch master
 
@@ -139,10 +142,12 @@ Em seguida, será necessário escolher o modelo de função (Figura 9), e será 
 * **af_fontesinternas_[breve descrição]**, caso a function seja para ingestão ou tratamento de dados internos à Ipiranga.  
 
 .. image:: /imagesaf/Imagem15.jpg
+     :align: center
 
 **Figura 15:** Selecionar modelo para nova function
 
 .. image:: /imagesaf/Imagem16.jpg
+     :align: center
 
 **Figura 16:** Definir nome para a nova function
 
@@ -157,6 +162,7 @@ No DevOps de cada área, no repositório de functions, as functions devem ser ar
 * function.json: onde será definido o tipo de agendamento do código, seja por Timer Trigger, Event Trigger, HTTP Trigger etc. 
 
 .. image:: /imagesaf/Imagem17.jpg
+     :align: center
 
 **Figura 17:** Repositório de function – pasta “Application” e folder de Function 
 

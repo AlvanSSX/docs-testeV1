@@ -4,6 +4,7 @@
 Em todas as camadas, os nomes dos arquivos deverão conter o prefixo correspondente à abreviatura da camada, conforme Tabela 2. 
 
    .. image:: /imagesdl/dl2.png
+     :align: center
 
 **Tabela 2:** Abreviatura de nomes das camadas 
 
@@ -49,7 +50,7 @@ Dados de bancos de dados
    data/[camada]/dados_internos/[banco]/[owner]/[tabela]/[yyyy]/[mm]/[dd]/[hh]/[ mi]/[ss]/rw_tabela_[yyyymmdd]_[hhmiss].parquet
 
    * Exemplo 1: carga full, dimensões trusted/dados_internos/bi/dmpne/dm_indicador_franquia_projeto/rw_dm_in dicador_franquia_projeto.parquet  
-   * Exemplo 2: carga incremental nível dia raw/dados_internos/bi/dmpne/pr_pneg_aluguel_volume_var/2021/11/14/rw_pr_pneg_aluguel_volume_var_20211114.parquet
+   * Exemplo 2: carga incremental nível dia raw/dados_internos/bi/dmpne/pr_pneg_aluguel_volume_var/2021/11/14/rw_pr_pneg_aluguel_volume_var_20211114.parquet  
    * Exemplo 3: carga incremental nível mês raw/dados_internos/bi/dmcontrato/ag_cntr_forn_prod_am/2021/11/rw_ag_c ntr_forn_prod_am_202111.parquet 
 
 Carga de bancos de dados com aplicação de filtros (exceção) 
