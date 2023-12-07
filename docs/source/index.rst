@@ -1,4 +1,4 @@
-Ipranga Projeto
+Ipiranga Projeto
 ================================
 
  .. image:: /images/ipiranga.png
